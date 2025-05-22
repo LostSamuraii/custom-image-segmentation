@@ -172,3 +172,25 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# Custom additions for DL project
+
+# Datasets (if downloaded locally into project structure)
+data/
+datasets/
+*.zip
+*.tar.gz
+*.csv 
+
+# Model checkpoints and saved models
+*.pt
+*.pth
+*.h5
+*.onnx
+models/
+saved_models/
+
+# Logs and experiment outputs
+logs/
+outputs/
+results/
